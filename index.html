@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shendy Krisyohanda Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img src="./assets/images/avatar.png" width="80" />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Shendy Krisyohanda">Shendy Krisyohanda</h1>
+
+            <p class="title" title="Student">Fresh Graduate</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:krisyohanda@gmail.com" class="contact-link"
+                  >krisyohanda@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="school-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Graduated From</p>
+
+                <a>Universitas Lambung Mangkurat</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Banjarbaru</address>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <div class="main-content">
+
+        <!-- Navbar -->
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Certificates</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- #ABOUT-->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I'm an active student of the Faculty of Engineering University of Lambung Mangkurat who has great 
+              responsibility, wants to learn new things, and have interest about technology. A student who 
+              discipline,and can work as a team.
+            </p>
+
+            <p>
+              Im interesting in mobile and web development.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing ?</h3>
+
+            <ul class="service-list">
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web Icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">
+                    Still learning about web development, especially with React Js
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/python-sv.svg"
+                    alt="Mobile App Icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Data Science</h4>
+
+                  <p class="service-item-text">
+                    Have a basic in kotlin, and create few apps in Flutter
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg"
+                    alt="Design Icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">UI/UX Design</h4>
+
+                  <p class="service-item-text">
+                    Make few app design in Figma.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Universitas Lambung Mangkurat</h4>
+
+              <span>2020 — 2024</span>
+
+              <p class="timeline-text">
+                Bachelor Degree in Information Technology, 3.84/4.00
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SMAN 1 Banjarbaru</h4>
+
+              <span>2017 — 2020</span>
+
+              <p class="timeline-text">
+                Natural Sciences Major, 87/100
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Program Dosen Wajib Mengabdi (PDWA) Program Studi Statistika FMIPA ULM 2023</h4>
+
+              <span>Aug 2023 — Sep 2023</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Laboratory Assistant Programming II</h4>
+
+              <span>Sep 2022 — Dec 2022</span>
+
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Kampus Merdeka Studi Independen Hactiv8 Indonesia</h4>
+
+              <span>Aug 2022 — Dec 2022</span>
+
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Laboratory Assistant Database I</h4>
+
+              <span>Mar 2022 — Jun 2022</span>
+
+
+            </li>
+            
+          </ol>
+
+        </section>
+
+      </article>
+
+
+        <!--- #CERTIFICATES-->
+
+        <article class="certificates" data-page="certificates">
+          <header>
+            <h2 class="h2 article-title">Certificates</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="project-list">
+              <li
+                class="project-item active"
+              >
+                <a href="https://github.com/zaaii/hijrah_journey" title="Lihat">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/serti1.png"
+                      alt="serti1"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Sertifikat MSIB PT. Hacktivate Teknologi Indonesia</h3>
+
+                  <p class="project-category">Kampus Merdeka</p>
+                </a>
+              </li>
+              <li
+              class="project-item active"
+            >
+              <a href="https://github.com/zaaii/MovieWeb" title="Lihat">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img
+                    src="./assets/images/serti2.png"
+                    alt="serti2"
+                    loading="lazy"
+                  />
+                </figure>
+
+                <h3 class="project-title">Sertifikat Membuat Website Sederhana dengan Laravel untuk Calon Web Developer</h3>
+
+                <p class="project-category">karier.mu</p>
+              </a>
+            </li>
+            <li
+            class="project-item active"
+          >
+            <a href="https://github.com/zaaii/my_comic" title="Lihat">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img
+                  src="./assets/images/serti3.png"
+                  alt="serti3"
+                  loading="lazy"
+                />
+              </figure>
+
+              <h3 class="project-title">Sertifikat Memahami Jupyter Notebook</h3>
+
+              <p class="project-category">Hacktiv8</p>
+            </a>
+          </li>
+            <li
+            class="project-item active"
+          >
+            <a href="https://github.com/zaaii/my_comic" title="Lihat">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img
+                  src="./assets/images/serti4.png"
+                  alt="serti4"
+                  loading="lazy"
+                />
+              </figure>
+
+              <h3 class="project-title">Sertifikat Cloud Practiticioner (Belajar Dasar AWS Cloud)</h3>
+
+              <p class="project-category">Dicoding</p>
+            </a>
+          </li>
+            <li
+            class="project-item active"
+          >
+            <a href="https://github.com/zaaii/my_comic" title="Lihat">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img
+                  src="./assets/images/serti5.png"
+                  alt="serti4"
+                  loading="lazy"
+                />
+              </figure>
+
+              <h3 class="project-title">Sertifikat Belajar Dasar Pemrograman Javascript</h3>
+
+              <p class="project-category">Dicoding</p>
+            </a>
+          </li>
+            <li
+            class="project-item active"
+          >
+            <a href="https://github.com/zaaii/my_comic" title="Lihat">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img
+                  src="./assets/images/serti6.png"
+                  alt="serti6"
+                  loading="lazy"
+                />
+              </figure>
+
+              <h3 class="project-title">Sertifikat Belajar Dasar Visualisasi Data</h3>
+
+              <p class="project-category">Dicoding</p>
+            </a>
+          </li>
+            <li
+            class="project-item active"
+          >
+            <a href="https://github.com/zaaii/my_comic" title="Lihat">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img
+                  src="./assets/images/serti7.png"
+                  alt="serti7"
+                  loading="lazy"
+                />
+              </figure>
+
+              <h3 class="project-title">Sertifikat Mempelajari Machine Learning dengan Python</h3>
+
+              <p class="project-category">Hacktiv8</p>
+            </a>
+          </li>
+            <li
+            class="project-item active"
+          >
+            <a href="https://github.com/zaaii/my_comic" title="Lihat">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img
+                  src="./assets/images/serti8.png"
+                  alt="serti8"
+                  loading="lazy"
+                />
+              </figure>
+
+              <h3 class="project-title">Sertifikat Pelatihan IT Fundamentals Digitalent Scholarship</h3>
+
+              <p class="project-category">Kominfo</p>
+            </a>
+          </li>
+            <li
+            class="project-item active"
+          >
+            <a href="https://github.com/zaaii/my_comic" title="Lihat">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img
+                  src="./assets/images/serti9.png"
+                  alt="serti9"
+                  loading="lazy"
+                />
+              </figure>
+
+              <h3 class="project-title">Sertifikat Algoritma Machine Learning</h3>
+
+              <p class="project-category">Hacktiv8</p>
+            </a>
+          </li>
+            <li
+            class="project-item active"
+          >
+            <a href="https://github.com/zaaii/my_comic" title="Lihat">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img
+                  src="./assets/images/serti10.png"
+                  alt="serti11"
+                  loading="lazy"
+                />
+              </figure>
+
+              <h3 class="project-title">Sertifikat Memulai Pemrograman dengan C</h3>
+
+              <p class="project-category">Dicoding</p>
+            </a>
+          </li>
+            <li
+            class="project-item active"
+          >
+            <a href="https://github.com/zaaii/my_comic" title="Lihat">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img
+                  src="./assets/images/serti11.png"
+                  alt="serti11"
+                  loading="lazy"
+                />
+              </figure>
+
+              <h3 class="project-title">Sertifikat Memulai Pemrograman dengan Python</h3>
+
+              <p class="project-category">Dicoding</p>
+            </a>
+          </li>
+            <li
+            class="project-item active"
+          >
+            <a href="https://github.com/zaaii/my_comic" title="Lihat">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img
+                  src="./assets/images/serti12.png"
+                  alt="serti12"
+                  loading="lazy"
+                />
+              </figure>
+
+              <h3 class="project-title">Sertifikat Oracle Cloud Infrastructure Foundation</h3>
+
+              <p class="project-category">Kominfo</p>
+            </a>
+          </li>
+            <li
+            class="project-item active"
+          >
+            <a href="https://github.com/zaaii/my_comic" title="Lihat">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img
+                  src="./assets/images/serti13.png"
+                  alt="serti14"
+                  loading="lazy"
+                />
+              </figure>
+
+              <h3 class="project-title">Sertifikat Peningkatan Kapabilitas Sumber Daya Perangkat Kelurahan Cinta Statistik (Cantik) se-Kota Banjarmasin dalam Perancangan Proses dan Bisnis Data</h3>
+              
+              <p class="project-category">Universitas Lambung Mangkurat</p>
+            </a>
+          </li>
+          <li
+          class="project-item active"
+          >
+          <a href="https://github.com/zaaii/my_comic" title="Lihat">
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+              
+              <img
+              src="./assets/images/serti14.png"
+              alt="serti14"
+              loading="lazy"
+              />
+            </figure>
+            
+            <h3 class="project-title">Sertifikat Algorithm & Data Structures with Python</h3>
+
+              <p class="project-category">Skilvul</p>
+            </a>
+          </li>
+            <li
+            class="project-item active"
+          >
+            <a href="https://github.com/zaaii/my_comic" title="Lihat">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img
+                  src="./assets/images/serti15.png"
+                  alt="serti15"
+                  loading="lazy"
+                />
+              </figure>
+
+              <h3 class="project-title">Sertifikat CSS Dasar</h3>
+
+              <p class="project-category">Skilvul</p>
+            </a>
+          </li>
+            <li
+            class="project-item active"
+          >
+            <a href="https://github.com/zaaii/my_comic" title="Lihat">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img
+                  src="./assets/images/serti16.png"
+                  alt="serti16"
+                  loading="lazy"
+                />
+              </figure>
+
+              <h3 class="project-title">Sertifikat Git & Github Dasar</h3>
+
+              <p class="project-category">Skilvul</p>
+            </a>
+          </li>
+            </ul>
+          </section>
+        </article>
+
+        
+        <!--- #PORTFOLIO-->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="project-list">
+              <li
+                class="project-item active"
+              >
+                <a href="https://github.com/krisyohanda/bookutu" title="Lihat">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project1.png"
+                      alt="project1"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Bookutu (Online Bookstore)</h3>
+
+                  <p class="project-category">Web Development</p>
+                </a>
+              </li>
+              <li
+              class="project-item active"
+            >
+              <a href="https://github.com/zaaii/MovieWeb" title="Lihat">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img
+                    src="./assets/images/flix.png"
+                    alt="flix"
+                    loading="lazy"
+                  />
+                </figure>
+
+                <h3 class="project-title">BookLib (Online Library)</h3>
+
+                <p class="project-category">Web Development</p>
+              </a>
+            </li>
+            <li
+            class="project-item active"
+          >
+            <a href="https://github.com/krisyohanda/PYTN_KampusMerdeka_fp2_ShendyKrisyohanda" title="Lihat">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img
+                  src="./assets/images/project4.png"
+                  alt="project4"
+                  loading="lazy"
+                />
+              </figure>
+
+              <h3 class="project-title">Weather Forecast in Australia</h3>
+
+              <p class="project-category">Data Science</p>
+            </a>
+          </li>
+            <li
+            class="project-item active"
+          >
+            <a href="#" title="Lihat">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img
+                  src="./assets/images/project7.png"
+                  alt="project7"
+                  loading="lazy"
+                />
+              </figure>
+
+              <h3 class="project-title">Indonesian Language Sexual Harassment Detection</h3>
+
+              <p class="project-category">Data Science</p>
+            </a>
+          </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="logo-github"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Github</p>
+
+                <a href="https://github.com/krisyohanda/" class="contact-link"
+                  >github.com/krisyohanda</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">LinkedIn</p>
+
+                <a href="https://www.linkedin.com/in/shendy-krisyohanda/" class="contact-link"
+                  >Shendy Krisyohanda</a
+                >
+              </div>
+            </li>
+
+            </ul>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
